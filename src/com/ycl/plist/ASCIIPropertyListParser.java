@@ -17,7 +17,6 @@ import java.util.regex.Pattern;
 public class ASCIIPropertyListParser {
   private static final Pattern scannerDelimiterPattern = Pattern.compile("(\\s*\\=\\s*)|(\\s*\\;\\s+)|(\\s*\\,\\s+)|(\\s+)");
 
-  
   private static final Pattern arrayBeginToken = Pattern.compile("\\(");
   
   private static final Pattern arrayEndToken = Pattern.compile("\\)");
